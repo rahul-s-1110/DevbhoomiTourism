@@ -1,0 +1,15 @@
+<!-- <p>login page</p> -->
+<body>
+    
+    <h2>Welcome Back</h2>
+    <form #loginForm="ngForm" (ngSubmit)="getUserValue(loginForm.value)">
+        
+        <label for="mobile_num">Mobile number</label>
+        <input type="text" ngModel name="mobile_num" placeholder="Enter Mobile Number">
+        <label for="password">Enter Password</label>
+        <input type="password" ngModel name="password" placeholder="Enter passwords">
+        <button class="pageButton" onclick="console.warn('button working')">Login</button>
+        
+        <button id="forgetButton">forget password</button>
+    </form>
+</body>

@@ -12,7 +12,7 @@ form{
 
 h3{
    text-align: center;
-   color: rgb(109, 105, 96); 
+   color: rgb(229, 228, 226); 
 }
 /* .image{
     background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F1672338.jpg&imgrefurl=https%3A%2F%2Fwallpaperaccess.com%2Fhello-world&tbnid=V-gQAQIO-zC_1M&vet=12ahUKEwjp7av_q5nxAhWO_TgGHTaGCE8QMygCegUIARDBAQ..i&docid=t7mYBiFZXy9QyM&w=1332&h=850&q=background%20image%20in%20hello%20world&ved=2ahUKEwjp7av_q5nxAhWO_TgGHTaGCE8QMygCegUIARDBAQ");
@@ -25,7 +25,7 @@ h3{
 }  */
 
 body{
-    background-image: url("../assets/image/221297.png" );
+    background-image: url("../assets/image/RishikeshRiverRafting.jpg" );
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,7 +37,7 @@ div
 
 label{
     display: block;
-    color: white;
+    color: rgb(250, 245, 245);
     padding-top: 0.5rem;
     font-size: 15px;
     text-transform: uppercase;

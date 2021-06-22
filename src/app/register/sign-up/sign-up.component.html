@@ -1,0 +1,37 @@
+<p>This is signup page</p>
+
+
+<body>
+    <h3>Create an Account</h3>
+    <form #SimpleForm="ngForm" (ngSubmit)="getUserValue(SimpleForm.value)">
+
+        <label for="username">Name</label>
+        <input #first="ngModel" type="text" ngModel name="username" placeholder="First Name" required>
+       <div  class=" alert alert-danger" *ngIf="first.touched && first.invalid">first name is required</div>
+
+        <label for="lastname">Lastname</label>
+        <input  type="text" ngModel name="lastname" placeholder="Last Name">
+
+        <label for="userAge">Enter age</label>
+        <input #age="ngModel" type="text" ngModel name="userAge" placeholder="Enter your age" required>
+        <div class="alert alert-danger" *ngIf="age.touched && age.invalid">Age is required</div>
+
+        <label for="mobile">Contect</label>
+        <input #mob="ngModel"  type="text" ngModel name="mobile" placeholder="Enter Your mobile number" required>
+        <div class="alert alert-danger" *ngIf="mob.touched && mob.invalid">Number is required</div>
+
+        <label for="email">Enter Email</label>
+        <input #mail="ngModel" type="email" ngModel name="email" placeholder="Enter the mail" required>
+        <div class="alert alert-danger" *ngIf="mail.touched && mail.invalid">Age is required</div>
+
+        <label for="address">Enter Full Address</label>
+        <input type="text" ngModel name="address" placeholder="Enter your address">
+
+        <label for="password">Enter Password</label>
+        <input #pass="ngModel" type="password" ngModel name="password" placeholder="Enter passwords" required>
+        <div class="alert alert-danger" *ngIf="pass.touched && pass.invalid">Password is required</div>
+
+        <button class="pageButton" onclick="console.warn('button working')">SignUp</button>
+        <button type="reset" class="pageButton" id="btnid">Reset </button>
+    </form>
+</body>
