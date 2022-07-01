@@ -1,0 +1,15 @@
+#banner1{
+    background-image: url("../assets/RishikeshRiverRafting.jpg");
+    width: 1200px auto ;
+    margin-left: 140px;
+    margin-right: 100px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+}
+#banner1 h1{
+    color: white;
+
+}
+#para{
+    color: rgb(80, 59, 59);
+}

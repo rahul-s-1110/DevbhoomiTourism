@@ -15,8 +15,9 @@
 /* </style> */
 
  #thumb1{
-    background-image: url("../assets/image/RishileshCamp.jpg");
+    /* background-image: url(""); */
     size: 600px auto;
+    margin-top: 10px;
 
 }
 
